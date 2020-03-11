@@ -1,0 +1,54 @@
+.body{
+  background-color: black;
+  display: flex;
+  height: 600px;
+
+}
+
+.inner{
+  background-color: darkgray;
+  height: 500px;
+  width: 300px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.arm{
+  display: flex;
+  background-color: black;
+  height: 100px;
+  width: 60px;
+  
+}
+
+.handle{
+  height: 10px;
+  width: 80px;
+  background-color: var(--dark-lighten);
+  position: absolute;
+  top: -80;
+  left: 50;
+  display: flex;
+  justify-content: center;
+  transition: all .05s linear;
+  z-index: 1;
+}
+
+.light{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
